@@ -1,11 +1,11 @@
-/* Reset default browser styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -14,10 +14,10 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centering content horizontally */
+    align-items: center; 
 }
 
-/* Header */
+
 header {
     background-color: #de9610;
     color: white;
@@ -34,22 +34,22 @@ header p {
     font-size: 1.2em;
 }
 
-/* Flexbox for Section Alignment */
+
 .container {
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line */
-    justify-content: space-around; /* Equal spacing between items */
-    gap: 20px; /* Space between boxes */
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 20px; 
     max-width: 1200px;
     margin: 20px auto;
 }
 
-/* Section Styles */
+
 section {
     background-color: white;
     padding: 20px;
-    width: 100%; /* Full width on small screens */
-    max-width: 350px; /* Limit width for larger screens */
+    width: 100%; 
+    max-width: 350px; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -63,10 +63,10 @@ h2 {
 ul {
     list-style-type: square;
     padding-left: 20px;
-    text-align: left; /* Align list items to the left */
+    text-align: left; 
 }
 
-/* Profile Section */
+
 .profile {
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@ ul {
     border: 3px solid #de9610;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     background-color: #de9610;
